@@ -1,0 +1,45 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Salut", "Comment allez vous", "Il y a quelqu'un ?","Bonjour", "Bonne journée","Bonsoir"],
+         "responses": ["Bonjour ","Bonjour en quoi puis je vous être utile ?", "Content de vous revoir", "Bonsoir", "Bonjour je suis à votre service"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Au revoir",  "A bientôt", "C'était un plaisir de discuter avec vous", "A la prochain"],
+         "responses": ["Au revoir!", "Passez une bonne soirée", "Au revoir ! Revenez bientôt "],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Merci", "Je vous remercie", "Votre aide m'a été d'une grande importance", "Génial, Merci", "Merci de m'avoir aidé"],
+         "responses": ["Content de vous avoir aidé !", "Je vous en prie !", "Tout le plaisir est pour moi"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Désolé ,je ne suis pas d'avoir compris votre question ", "J'aurais besion de plus d'informations", ""],
+         "context": [""]
+        },
+        {"tag": "description_gi",
+         "patterns": ["Veuillez me décrire le génie informatique ","Decris moi le Gi de l'ensa!","c'est quoi le génie informatique",""],
+         "responses": ["L’objectif de la formation est de former des ingénieurs en informatique pour concevoir et réaliser des projets informatiques pour l'entreprise et l'industrie. Ce cursus facilite leur insertion dans le milieu professionnel et leur offre la meilleure évolution de carrière possible. Afin de garantir la capacité d’adaptation nécessaire des futurs ingénieurs aux évolutions constantes de la discipline, ils sont dotés de solides bases méthodologiques et techniques leur permettant de développer un ensemble de compétences qui suivent l’évolution de la technologie et du monde socioéconomique"]
+        },
+        {"tag": "integration_gi",
+          "patterns": ["Comment puis je acceder à la filière de Gi? ","Je veux intégrer la filière de Gi "],
+          "responses":["Comme toutes les autres filières de l'ensa ,l'accès se fait par les voies suivantes:Provenir d'une  des APIs de réseau Ensa,Par voie de concours ou par après le CNC"]
+
+        },
+        {"tag": "renseigment_filiere",
+         "patterns": ["Quelles sont les filieres de l'ENSA Berrechid","Quelles sont differentes les filieres de l'ENSA Berrechid?"],
+         "responses": ["Voici les filière de l'Ensa:Génie informatique ,Aéronautique,Big Data"]
+        },
+        {"tag": "merci",
+         "patterns": ["Merci", "Merci enormement", "Je vous remercie", "Merci de m'avoir aider"],
+         "responses": ["Je vous en prie!", "Avec plaisir", "Ce fut un plaisir d'echanger avec vous"]
+        },
+        {"tag": "options",
+         "patterns": ["Comment pourriez vous m'aider?", "Qu'êtes vous capable de faire?", "Quelle aide pourriez vous donner?"],
+         "responses": ["Je pourrais vous décrire toutes les filières de l'ensa de Berrechid", "Je vous pourait vous lister les filières de l'ensa"],
+         "context": [""]
+        }
+   ]
+}
