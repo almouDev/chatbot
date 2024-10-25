@@ -14,6 +14,7 @@ import prediction
 tags = []
 inputs = []
 responses = {}
+responses = {}
 input_shape = 0
 model=model = load_model('chatbot_model.h5')
 class ChatBot(Tk):
